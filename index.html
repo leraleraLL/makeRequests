@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script type="module" src="index.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div class="make_request">
+    <div class="input_button_request">
+      <form class="input_button_addUrl">
+        <input type="text" placeholder="enter url" id="inputUrl" value=""/>
+        <button type="button" class="btn_addUrl" onclick="addUrl(event)">add Url</button>
+      </form>
+      <form class="input_button_makeRequests">
+        <input type="number" placeholder="max numbers request" id="inputMaxReq" />
+        <button type="button" class="btn_makeRequests" onclick="makeRequests()">make Requests</button>
+      </form>
+    </div>
+    <div class="table_requests">
+      <table class="table_requests"><th>wwww</th></table>
+    </div>
+  </div>
+  <div class="answer">
+    <div class="list_requests"><div class="list_result_requests"><th></th></div></div>
+    
+  </div>
+  <script>
+    // const addUrl = e => {
+    // e.preventDefault();
+    // let inputUrlText = document.querySelector('#inputUrl').innerHTML
+    // document.querySelector('.list_result_requests').th = inputUrlText
+    // console.log('ok')
+    
+    // return false
+    // }
+  </script>
+</body>
+</html>
