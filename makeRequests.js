@@ -1,7 +1,3 @@
- * @param  {string[]} urls      массив с адресами
- * @param  {number} maxRequests максимальное количество одновременных запросов
- * @return {Promise}
- */
 
 function addListUrl(num, arr) {
     for (let url of arr) {
